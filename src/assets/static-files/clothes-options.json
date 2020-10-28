@@ -1,0 +1,248 @@
+{
+  "tops": [
+    {
+      "name": "T-shirt",
+      "gategory": "tops",
+      "name_english": "T-shirt",
+      "name_spanish": "Camiseta",
+      "gender_preference": null
+    },
+    {
+      "name": "Long-sleeved shirt",
+      "gategory": "tops",
+      "name_english": "Long-sleeved shirt",
+      "name_spanish": "Camiseta de manga larga",
+      "gender_preference": null
+    },
+    {
+      "name": "Shirt",
+      "gategory": "tops",
+      "name_english": "Shirt",
+      "name_spanish": "Camisa",
+      "gender_preference": null
+    },
+    {
+      "name": "Top",
+      "gategory": "tops",
+      "name_english": "Top",
+      "name_spanish": "Top",
+      "gender_preference": null
+    },
+    {
+      "name": "Crop-top",
+      "gategory": "tops",
+      "name_english": "Crop-top",
+      "name_spanish": "Crop-top",
+      "gender_preference": "female"
+    },
+    {
+      "name": "Body",
+      "gategory": "tops",
+      "name_english": "Body",
+      "name_spanish": "Body",
+      "gender_preference": "female"
+    },
+    {
+      "name": "Sparkling",
+      "gategory": "tops",
+      "name_english": "Sparkling",
+      "name_spanish": "Brilli brilli",
+      "gender_preference": "female"
+    },
+    {
+      "name": "Embroidery",
+      "gategory": "tops",
+      "name_english": "Embroidery",
+      "name_spanish": "Encaje",
+      "gender_preference": "female"
+    },
+    {
+      "name": "Fishnets",
+      "gategory": "tops",
+      "name_english": "Fishnets",
+      "name_spanish": "Redecilla",
+      "gender_preference": "female"
+    },
+    {
+      "name": "See-through",
+      "gategory": "tops",
+      "name_english": "See-through",
+      "name_spanish": "Transparencia",
+      "gender_preference": "female"
+    },
+    {
+      "name": "Suspenders",
+      "gategory": "tops",
+      "name_english": "Suspenders",
+      "name_spanish": "Tirantes",
+      "gender_preference": null
+    },
+    {
+      "name": "Pullover",
+      "gategory": "tops",
+      "name_english": "Pullover",
+      "name_spanish": "Jersey",
+      "gender_preference": null
+    },
+    {
+      "name": "Hoodie w/ zipper",
+      "gategory": "tops",
+      "name_english": "Hoodie",
+      "name_spanish": "Sudadera abierta (cremallera)",
+      "gender_preference": null
+    },
+    {
+      "name": "Hoodie w/o zipper",
+      "gategory": "tops",
+      "name_english": "Hoodie",
+      "name_spanish": "Sudadera cerrada",
+      "gender_preference": null
+    },
+    {
+      "name": "Cardigan (long)",
+      "gategory": "tops",
+      "name_english": "Cardigan (long)",
+      "name_spanish": "Cárdigan largo",
+      "gender_preference": null
+    },
+    {
+      "name": "Cardigan (short)",
+      "gategory": "tops",
+      "name_english": "Cardigan (short)",
+      "name_spanish": "Rebeca",
+      "gender_preference": null
+    },
+    {
+      "name": "Blazer",
+      "gategory": "tops",
+      "name_english": "Blazer",
+      "name_spanish": "Chaqueta",
+      "gender_preference": null
+    },
+    {
+      "name": "Blazer",
+      "gategory": "tops",
+      "name_english": "Blazer",
+      "name_spanish": "Chaqueta",
+      "gender_preference": null
+    },
+    {
+      "name": "Leather jacket",
+      "gategory": "tops",
+      "name_english": "Leather jacket",
+      "name_spanish": "Chaqueta de cuero",
+      "gender_preference": null
+    },
+    {
+      "name": "Coat",
+      "gategory": "tops",
+      "name_english": "Coat",
+      "name_spanish": "Abrigo",
+      "gender_preference": null
+    },
+    {
+      "name": "Long coat",
+      "gategory": "tops",
+      "name_english": "Long coat",
+      "name_spanish": "Abrigo largo",
+      "gender_preference": null
+    }
+
+  ],
+  "bottoms": [
+    {
+      "name": "Skirt",
+      "gategory": "bottoms",
+      "name_english": "Skirt",
+      "name_spanish": "Falda",
+      "gender_preference": "female"
+    },
+    {
+      "name": "Dress",
+      "gategory": "bottoms",
+      "name_english": "Dress",
+      "name_spanish": "Vestido",
+      "gender_preference": "female"
+    },
+    {
+      "name": "Jumpsuit",
+      "gategory": "bottoms",
+      "name_english": "Jeans",
+      "name_spanish": "Vaqueros",
+      "gender_preference": null
+    },
+    {
+      "name": "Leggins",
+      "gategory": "bottoms",
+      "name_english": "Leggins",
+      "name_spanish": "Leggings",
+      "gender_preference": null
+    },
+    {
+      "name": "Jumpsuit",
+      "gategory": "bottoms",
+      "name_english": "Jumpsuit",
+      "name_spanish": "Mono",
+      "gender_preference": null
+    },
+    {
+      "name": "Bib overalls",
+      "gategory": "bottoms",
+      "name_english": "Bib overalls",
+      "name_spanish": "Peto",
+      "gender_preference": null
+    }
+  ],
+  "shoewear": [
+    {
+      "name": "Stockings",
+      "gategory": "shoewear",
+      "name_english": "Stockings",
+      "name_spanish": "Medias",
+      "gender_preference": null
+    },
+    {
+      "name": "Long socks",
+      "gategory": "shoewear",
+      "name_english": "Long socks",
+      "name_spanish": "Calcetas",
+      "gender_preference": null
+    },
+    {
+      "name": "Socks",
+      "gategory": "shoewear",
+      "name_english": "Socks",
+      "name_spanish": "Calcetines",
+      "gender_preference": null
+    }
+  ],
+  "makeup": [
+
+  ],
+  "lipstick": [
+    {
+      "name": "Nude",
+      "gategory": "lipstick",
+      "name_english": "Nude",
+      "name_spanish": "Ninguno"
+    },
+    {
+      "name": "Dark",
+      "gategory": "lipstick",
+      "name_english": "Dark",
+      "name_spanish": "Oscuro"
+    },
+    {
+      "name": "Fantasy",
+      "gategory": "lipstick",
+      "name_english": "Fantasy",
+      "name_spanish": "Fantasía"
+    },
+    {
+      "name": "Red",
+      "gategory": "lipstick",
+      "name_english": "Red",
+      "name_spanish": "Rojo"
+    }
+  ]
+}

@@ -6,13 +6,17 @@ import { HomePage } from './home.page';
 
 import { HomePageRoutingModule } from './home-routing.module';
 
+// Modules
+import { SharedComponentsModule } from '../home/components/shared/shared-components.module';
+
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    HomePageRoutingModule
+    SharedComponentsModule,
+    HomePageRoutingModule,
   ],
   declarations: [HomePage]
 })

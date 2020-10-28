@@ -1,0 +1,16 @@
+<ion-grid class="container">
+    <ion-text class="base-font-large bold">Set clothes for...</ion-text>
+    <!-- TODO: Include gender icons- completely optional tho -->
+  <ion-row class="bttn-container">
+      <button class="button-transparent base-font-medium bold" (click)="genderSelect('M')">
+        <span>Boy</span>
+      </button>
+      <button class="button-transparent base-font-medium bold" (click)="genderSelect('F')">
+        <span>Girl</span>
+      </button>
+      <button class="button-transparent base-font-medium bold" (click)="genderSelect(null)">
+        <span>Other</span>
+      </button>
+  </ion-row>
+
+</ion-grid>

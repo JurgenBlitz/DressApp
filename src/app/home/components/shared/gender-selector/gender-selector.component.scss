@@ -1,0 +1,15 @@
+.container {
+  width: 70%;
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 20px 5px;
+  .bttn-container {
+    justify-content: center;
+    display: grid;
+    margin-top: 16px;
+    button {
+      margin: 5px 0;
+    }
+  }
+}
+
