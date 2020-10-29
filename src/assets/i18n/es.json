@@ -1,0 +1,16 @@
+{
+  "common": {
+    "yes": "Yes",
+    "no": "No",
+    "back": "Back",
+    "accept": "Accept"
+  },
+  "actions": {
+    "select_for": "Choose clothes for..."
+  },
+  "genders": {
+    "boy": "Boy",
+    "girl": "Girl",
+    "other": "Other"
+  }
+}
