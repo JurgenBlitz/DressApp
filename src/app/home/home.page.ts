@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { Router } from '@angular/router';
+import { Router, NavigationExtras } from '@angular/router';
 
 
 @Component({
@@ -9,6 +9,13 @@ import { Router } from '@angular/router';
 })
 export class HomePage {
 
-  constructor() {}
+  constructor(private router: Router) {}
+
+  public redirecToClotheSelection(param: any) {
+    const navExtras: NavigationExtras = {
+      state: {param}
+    };
+    this.router.navigate(['/clothe-selection'], navExtras);
+  }
 
 }

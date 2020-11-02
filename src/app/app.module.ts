@@ -10,8 +10,8 @@ import { StatusBar } from '@ionic-native/status-bar/ngx';
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 
-// Pages
-import { PAGES } from 'src/app/home/components/pages';
+// Dependencies
+import { NativeStorage } from '@ionic-native/native-storage/ngx';
 
 // Modules
 import { SharedComponentsModule } from './home/components/shared/shared-components.module';
@@ -20,7 +20,7 @@ import { HomePageModule } from './home/home.module';
 @NgModule({
   declarations: [
     AppComponent,
-    PAGES
+  //  PAGES
   ],
   entryComponents: [],
   imports: [
@@ -29,6 +29,7 @@ import { HomePageModule } from './home/home.module';
     SharedComponentsModule
   ],
   providers: [
+    NativeStorage,
     StatusBar,
     SplashScreen,
     { provide: RouteReuseStrategy, useClass: IonicRouteStrategy }

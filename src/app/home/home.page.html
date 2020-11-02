@@ -1,13 +1,9 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      DressApp
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
+<app-header></app-header>
 
 <ion-content [fullscreen]="true">
   <div id="container">
-    <app-gender-selector></app-gender-selector>
+    <app-gender-selector
+      (genderSelection)="redirecToClotheSelection($event)">
+    </app-gender-selector>
   </div>
 </ion-content>
