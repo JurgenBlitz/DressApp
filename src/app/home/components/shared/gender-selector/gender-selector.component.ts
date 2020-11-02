@@ -13,8 +13,9 @@ export class GenderSelectorComponent implements OnInit {
 
   ngOnInit() {}
 
+  // param can be a string ('m'/'f') or null
   public genderSelect(param: any) {
-    // Emit the selection of the user?
-    // Or use the selection to navigate to the next view using the choice as navparams?
+    // TODO: Animate the container to fade out of screen before emitting
+    this.genderSelection.emit(param);
   }
 }

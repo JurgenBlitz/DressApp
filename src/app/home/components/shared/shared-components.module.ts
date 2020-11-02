@@ -3,10 +3,11 @@ import { CommonModule } from '@angular/common';
 import { IonicModule } from '@ionic/angular';
 import { FormsModule } from '@angular/forms';
 
-import { GenderSelectorComponent } from '../shared';
+import { AppHeaderComponent, GenderSelectorComponent } from '../shared';
 
 @NgModule({
   declarations: [
+    AppHeaderComponent,
     GenderSelectorComponent
   ],
   imports: [
@@ -15,6 +16,7 @@ import { GenderSelectorComponent } from '../shared';
     FormsModule
   ],
   exports: [
+    AppHeaderComponent,
     GenderSelectorComponent
   ]
 })
