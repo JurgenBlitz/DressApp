@@ -5,7 +5,7 @@ import { FormsModule } from '@angular/forms';
 import { HomePage } from './home.page';
 // Modules
 import { HomePageRoutingModule } from './home-routing.module';
-import { SharedComponentsModule } from '../home/components/shared/shared-components.module';
+import { SharedComponentsModule } from '../../shared/shared-components.module';
 
 
 @NgModule({

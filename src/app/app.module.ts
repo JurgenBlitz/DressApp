@@ -14,8 +14,10 @@ import { AppRoutingModule } from './app-routing.module';
 import { NativeStorage } from '@ionic-native/native-storage/ngx';
 
 // Modules
-import { SharedComponentsModule } from './home/components/shared/shared-components.module';
-import { HomePageModule } from './home/home.module';
+import {TranslateModule} from '@ngx-translate/core';
+import { SharedComponentsModule } from './shared/shared-components.module';
+import { HomePageModule } from './pages/home/home.module';
+
 
 @NgModule({
   declarations: [
@@ -25,8 +27,10 @@ import { HomePageModule } from './home/home.module';
   entryComponents: [],
   imports: [
     BrowserModule, IonicModule.forRoot(),
+    TranslateModule.forRoot(),
     AppRoutingModule,
-    SharedComponentsModule
+    SharedComponentsModule,
+    HomePageModule
   ],
   providers: [
     NativeStorage,

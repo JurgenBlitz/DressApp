@@ -3,7 +3,8 @@ import { CommonModule } from '@angular/common';
 import { IonicModule } from '@ionic/angular';
 import { FormsModule } from '@angular/forms';
 
-import { AppHeaderComponent, GenderSelectorComponent } from '../shared';
+import { AppHeaderComponent } from './app-header/app-header.component';
+import { GenderSelectorComponent } from './gender-selector/gender-selector.component';
 
 @NgModule({
   declarations: [
